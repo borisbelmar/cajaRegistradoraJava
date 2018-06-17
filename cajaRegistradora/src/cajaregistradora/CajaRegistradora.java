@@ -40,9 +40,6 @@ public class CajaRegistradora {
         int[][] caja = new int[filas][columnas];
         System.out.println("-----");
         
-        //Debugger
-        System.out.println(caja.length);
-        System.out.println(caja[1].length);
         for (int i = 0; i < filas; i++) {
             for (int j = 0; j < columnas; j++) {
                 switch(j) {
